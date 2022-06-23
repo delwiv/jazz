@@ -5,26 +5,12 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: content/contact
-  label: Contact
+  path: content/home
+  label: Accueil
   create: all
   match: "**/*"
   templates:
-  - contact
-- type: directory
-  path: content/tour
-  label: Tour
-  create: all
-  match: "**/*"
-  templates:
-  - tour
-- type: directory
-  path: content/videos
-  label: Vidéos
-  create: all
-  match: "**/*"
-  templates:
-  - videos
+  - home
 - type: directory
   path: content/musicians
   label: Musiciens
@@ -33,12 +19,26 @@ sections:
   templates:
   - musician
 - type: directory
-  path: content/home
-  label: Accueil
+  path: content/videos
+  label: Vidéos
   create: all
   match: "**/*"
   templates:
-  - home
+  - videos
+- type: directory
+  path: content/tour
+  label: Tour
+  create: all
+  match: "**/*"
+  templates:
+  - tour
+- type: directory
+  path: content/contact
+  label: Contact
+  create: all
+  match: "**/*"
+  templates:
+  - contact
 - type: document
   path: config.json
   label: Site Info
