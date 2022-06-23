@@ -24,3 +24,5 @@ fields:
       format: markdown
   label: Band bio
   description: Bio du groupe
+pages:
+- content/home/home.md
