@@ -1,43 +1,41 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: '/static/admin'
+admin_path: "/static/admin"
 webhook_url: 
-upload_dir: /static/uploads
-public_path: "/static/uploads"
 sections:
 - type: directory
   path: content/home
   label: Accueil
-  create: all
+  create: documents
   match: "**/*"
   templates:
   - home
 - type: directory
   path: content/musicians
   label: Musiciens
-  create: all
+  create: documents
   match: "**/*"
   templates:
   - musician
 - type: directory
   path: content/videos
   label: Vidéos
-  create: all
+  create: documents
   match: "**/*"
   templates:
   - videos
 - type: directory
   path: content/tour
   label: Tour
-  create: all
+  create: documents
   match: "**/*"
   templates:
   - tour
 - type: directory
   path: content/contact
   label: Contact
-  create: all
+  create: documents
   match: "**/*"
   templates:
   - contact
