@@ -1,4 +1,31 @@
 ---
 label: Musician
 hide_body: false
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+  description: Nom du musicien
+- name: instrument
+  type: text
+  config:
+    required: false
+  label: Instrument
+  description: Instrument joué
+- name: carousel
+  type: image_gallery
+  config: {}
+  label: Carousel
+  description: Images du musicien
+- name: bio
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Bio
+  description: Bio du musicien
