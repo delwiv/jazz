@@ -1,6 +1,7 @@
 ---
 label: Tour
 hide_body: true
+display_field: lieu
 fields:
 - name: date
   type: datetime
@@ -8,8 +9,8 @@ fields:
   description: Date et heure du concert
   config:
     required: false
-    date_format: 
-    time_format: 
+    date_format: DD/MM/YYYY
+    time_format: hh:mm
     display_utc: false
 - name: departement
   type: text
