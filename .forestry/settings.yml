@@ -1,8 +1,10 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: ''
+admin_path: '/static/admin'
 webhook_url: 
+upload_dir: /static/uploads
+public_path: "/static/uploads"
 sections:
 - type: directory
   path: content/home
