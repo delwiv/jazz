@@ -14,15 +14,5 @@ fields:
     required: false
   label: Band name
   description: Nom du groupe
-- name: band_bio
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Band bio
-  description: Bio du groupe
 pages:
 - content/home/home.md
