@@ -34,8 +34,36 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        name: "home",
+        path: `${__dirname}/content/home`
+      }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         name: "data",
         path: `${__dirname}/content/data`,
+      },
+    },
+    /* {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: "videos",
+        path: `${__dirname}/content/videos`,
+      },
+    }, */
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: "tour",
+        path: `${__dirname}/content/tour`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: "musicians",
+        path: `${__dirname}/content/musicians`,
       },
     },
     {
