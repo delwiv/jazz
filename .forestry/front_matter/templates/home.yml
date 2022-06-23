@@ -14,5 +14,13 @@ fields:
     required: false
   label: Band name
   description: Nom du groupe
+- name: menu
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Menu
+  description: Menu principal
 pages:
 - content/home/home.md
