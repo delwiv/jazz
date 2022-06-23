@@ -29,3 +29,5 @@ fields:
       format: markdown
   label: Bio
   description: Bio du musicien
+pages:
+- content/musicians/frederic-robert.md
