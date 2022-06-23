@@ -10,7 +10,7 @@ fields:
   config:
     required: false
     date_format: DD/MM/YYYY
-    time_format: hh:mm
+    time_format: HH:mm
     display_utc: false
 - name: departement
   type: text
