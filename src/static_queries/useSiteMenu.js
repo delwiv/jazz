@@ -1,8 +1,8 @@
 import { graphql, useStaticQuery } from "gatsby"
 
-export default function useSiteMetadata() {
+export default function useSiteMenu() {
   const data = useStaticQuery(graphql`
-    query getMetadata {
+    query getMenu {
       site {
         siteMetadata {
           title
