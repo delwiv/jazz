@@ -1,4 +1,26 @@
 ---
 label: Home
 hide_body: false
-fields: []
+fields:
+- name: main_band_picture
+  type: file
+  config:
+    maxSize: 64
+  label: Main band picture
+  description: Image principale du groupe
+- name: band_name
+  type: text
+  config:
+    required: false
+  label: Band name
+  description: Nom du groupe
+- name: band_bio
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Band bio
+  description: Bio du groupe
