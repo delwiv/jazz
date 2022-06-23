@@ -1,4 +1,10 @@
 ---
 label: Videos
 hide_body: true
-fields: []
+fields:
+- name: youtube_link
+  type: text
+  config:
+    required: false
+  label: Youtube link
+  description: Lien d'une vidéo Youtube
