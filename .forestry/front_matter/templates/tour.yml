@@ -1,4 +1,31 @@
 ---
 label: Tour
 hide_body: false
-fields: []
+fields:
+- name: date
+  type: datetime
+  label: Date
+  description: Date et heure du concert
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: departement
+  type: text
+  config:
+    required: false
+  label: Département
+  description: Département
+- name: ville
+  type: text
+  config:
+    required: false
+  label: Ville
+  description: Ville
+- name: lieu
+  type: text
+  config:
+    required: false
+  label: Lieu
+  description: Nom du lieu
