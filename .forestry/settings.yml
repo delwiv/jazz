@@ -6,20 +6,6 @@ webhook_url:
 sections:
 - type: heading
   label: Accueil
-- type: directory
-  path: musicians
-  label: Musiciens
-  create: documents
-  match: "**/*"
-  new_doc_ext: md
-  templates:
-  - blog-post
-- type: document
-  path: videos/**/*
-  label: Vidéos
-- type: document
-  path: tour/**/*
-  label: Tour
 - type: document
   path: config.json
   label: Site Info
