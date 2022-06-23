@@ -2,6 +2,12 @@
 main_band_picture: "/content/images/affiche_boheme.jpg"
 band_name: BOHÈME
 band_bio: ''
+menu:
+- Accueil
+- Musiciens
+- Vidéos
+- Tour
+- Contact
 
 ---
 Voila une belle rencontre, présage d'un bel avenir.
