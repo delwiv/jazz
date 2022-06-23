@@ -19,15 +19,5 @@ fields:
   config: {}
   label: Carousel
   description: Images du musicien
-- name: bio
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Bio
-  description: Bio du musicien
 pages:
 - content/musicians/frederic-robert.md
