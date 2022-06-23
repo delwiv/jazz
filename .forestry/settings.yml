@@ -5,23 +5,21 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Content
+  label: Accueil
 - type: directory
-  path: content/posts
-  label: Blog Posts
+  path: musicians
+  label: Musiciens
   create: documents
   match: "**/*"
   new_doc_ext: md
   templates:
   - blog-post
 - type: document
-  path: content/data/authors.yaml
-  label: Author List
+  path: videos/**/*
+  label: Vidéos
 - type: document
-  path: content/data/info.json
-  label: Info Page
-- type: heading
-  label: General Config
+  path: tour/**/*
+  label: Tour
 - type: document
   path: config.json
   label: Site Info
