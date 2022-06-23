@@ -5,6 +5,34 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: content/contact
+  label: Contact
+  create: all
+  match: "**/*"
+  templates:
+  - contact
+- type: directory
+  path: content/tour
+  label: Tour
+  create: all
+  match: "**/*"
+  templates:
+  - tour
+- type: directory
+  path: content/videos
+  label: Vidéos
+  create: all
+  match: "**/*"
+  templates:
+  - videos
+- type: directory
+  path: content/musicians
+  label: Musiciens
+  create: all
+  match: "**/*"
+  templates:
+  - musician
+- type: directory
   path: content/home
   label: Accueil
   create: all
