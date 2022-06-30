@@ -30,6 +30,3 @@ fields:
     required: false
   label: Lieu
   description: Nom du lieu
-pages:
-- content/tour/01-06-2022 21:01.md
-- content/tour/30-06-2022 20:00.md
